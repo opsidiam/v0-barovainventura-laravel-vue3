@@ -1,0 +1,11 @@
+{
+    "name": "Stocktake",
+    "alias": "stocktake",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Stocktake\\Providers\\StocktakeServiceProvider"
+    ],
+    "files": []
+}
