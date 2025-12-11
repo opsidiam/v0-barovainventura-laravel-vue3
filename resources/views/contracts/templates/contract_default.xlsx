@@ -1,8 +1,0 @@
-A1: ZMLUVA O POSKYTOVANÍ SLUŽIEB
-A3: Dátum: {{today}}
-
-A5: Objednávateľ: {{user.name}} {{user.surname}} ({{user.email}})
-A6: Referencia: {{user.reference}}
-
-A8: Param1: {{param1}}
-A9: Param2: {{param2}}
