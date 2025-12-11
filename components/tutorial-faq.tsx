@@ -28,7 +28,9 @@ export function TutorialFaq() {
             {faqs.map((faq, index) => (
               <AccordionItem key={index} value={`item-${index}`} className="bg-white border rounded-lg px-6">
                 <AccordionTrigger className="text-left font-semibold hover:no-underline">{faq.q}</AccordionTrigger>
-                <AccordionContent className="text-gray-600" dangerouslySetInnerHTML={{ __html: faq.a }} />
+                <AccordionContent>
+                  <div className="text-gray-600" dangerouslySetInnerHTML={{ __html: faq.a }} />
+                </AccordionContent>
               </AccordionItem>
             ))}
           </Accordion>
